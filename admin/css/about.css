@@ -1,0 +1,155 @@
+.about-para {
+  margin: 20px 100px 20px 100px;
+  font-size: 2rem;
+}
+
+
+
+.mission {
+  margin: 16px;
+}
+
+.mission-content {
+  display: flex;
+}
+
+.mission p {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 2rem;
+}
+
+.mission1 {
+  font-weight: bold;
+  transition: all .3s ease;
+  background-image: linear-gradient(to right, orange, rgb(187, 127, 14));
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 20px;
+  font-size: 3rem;
+}
+
+
+.modal-header h1 {
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+ .slide {
+  text-align: center;
+}
+
+ .slide:hover .image img {
+  background: orange;
+}
+
+ .slide:hover .image .share {
+  bottom: 0;
+}
+
+ .slide .image {
+  position: relative;
+  overflow: hidden;
+}
+
+ .slide .image img {
+  background: #f0fdfa;
+  width: 100%;
+}
+
+ .slide .image .share {
+  position: absolute;
+  bottom: -10rem;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+}
+
+ .slide .image .share a {
+  font-size: 3rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+
+ .slide .image .share a:hover {
+  color: orange;
+}
+
+ .slide .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+ .slide .content h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+ .slide .content span {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
+
+.reviews .slide {
+  text-align: center;
+}
+
+.reviews .slide p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  position: relative;
+  background: #f0fdfa;
+  border: 0.1rem solid orange;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+.reviews .slide p::before {
+  content: '';
+  position: absolute;
+  bottom: -1.2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
+  background: #f0fdfa;
+  border-bottom: 0.1rem solid orange;
+  border-right: 0.1rem solid orange;
+  height: 2rem;
+  width: 2rem;
+}
+
+.reviews .slide img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+
+.reviews .slide h3 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: .5rem 0;
+}
+
+.reviews .slide .stars {
+  font-size: 1.2rem;
+  color: orange;
+}
